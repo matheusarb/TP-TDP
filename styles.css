@@ -16,11 +16,12 @@ html {
     min-width: 280px;
 }
 
-header {
-    font-size: 1.6rem;
+#main-header {
+    font-size: 1.8rem;
     font-weight: bold;
-    margin: 20px;
-    text-align: center;
+    margin: 25px;
+    padding-left: 22px;
+    text-align: left;
 }
 
 #nav-bar ul {
@@ -42,6 +43,24 @@ header {
     display: block;
     text-decoration: none;
     color:rgba(0, 0, 0, 0.747);
-    font-size: 1.2rem;
+    font-size: 1.35em;
     padding: 25px 50px;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 330px;
+    padding: 20px;
+}
+
+header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: justify;
+    color:rgba(0, 0, 0, 0.747);
+}
+
+.main-section {
+    font-size: 0.9rem;
+    line-height: 1.5;
 }
